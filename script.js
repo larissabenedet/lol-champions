@@ -5,7 +5,7 @@ const searchBar = document.getElementById('searchBar')
         async function getContent() {
 
             try {
-                const response = await fetch('http://ddragon.leagueoflegends.com/cdn/11.2.1/data/pt_BR/champion.json')
+                const response = await fetch('https://ddragon.leagueoflegends.com/cdn/11.2.1/data/pt_BR/champion.json')
 
                 var allChampions = await response.json(response)
                 allChampionsName = Object.keys(allChampions.data) // all champions names
@@ -40,7 +40,7 @@ const searchBar = document.getElementById('searchBar')
                 return `
                 <div class="champ${i}">
                     <p>${allChampionsData[e].name}</p>
-                    <img src="http://ddragon.leagueoflegends.com/cdn/11.4.1/img/champion/${allChampionsData[e].id}.png" class="champImg" alt="${allChampionsData[e].name}">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/11.4.1/img/champion/${allChampionsData[e].id}.png" class="champImg" alt="${allChampionsData[e].name}">
                 </div>
                 `
             }).join('')
@@ -87,7 +87,7 @@ const searchBar = document.getElementById('searchBar')
             clickName = clickName.toLowerCase()
 
             let img = document.createElement("img");
-            img.src = `http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${allChampionsData.id}_1.jpg`
+            img.src = `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${allChampionsData.id}_1.jpg`
             document.querySelector(`.modal `).appendChild(img);
             img.className += `champImgModal`
 
