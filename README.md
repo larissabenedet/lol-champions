@@ -1,4 +1,4 @@
-[<b><h1>Clique aqui para acessar o LOL Champions ✨</h1>](linkembreve.com)</b>
+[<b><h1>Clique aqui para acessar o LOL Champions ✨</h1>](https://larissabenedet.github.io/lol-champions/)</b>
 
 ## *Sobre o projeto*
 ```
@@ -11,6 +11,5 @@ O LOL Champions é um site responsivo que lista todos os personagens do jogo Lea
 * HTML/CSS.
 
 ```
-Nesse projeto foi implementado o conceito de media query, onde o layout do site se adapta ao tamanho de tela de cada usuário. Confira:
+Nesse projeto foi implementado o conceito de media query, onde o layout do site se adapta ao tamanho de tela de cada usuário.
 ```
-<img src="https://imgur.com/vbFTp0w">
