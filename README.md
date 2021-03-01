@@ -11,6 +11,6 @@ O LOL Champions é um site responsivo que lista todos os personagens do jogo Lea
 * HTML/CSS.
 
 ```
-Nesse projeto foi implementado o conceito de media query, onde o layout do site se adapta ao tamanho de tela de cada usuário. Confira:
+Nesse projeto foi implementado o conceito de media query, onde o layout do site se adapta ao tamanho de tela de cada usuário. 
 ```
-<img src="lcmediaquery.gif">
+
