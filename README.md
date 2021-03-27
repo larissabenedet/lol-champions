@@ -2,7 +2,7 @@
 
 ## *Sobre o projeto*
 ```
-O LOL Champions é um site responsivo que lista todos os personagens do jogo League of Legends e suas respectivas informações, contendo um campo de pesquisa caso busque um campeão específico. Toda vez que um novo personagem surgir no jogo ele será automaticamente incluso na página. 
+O LOL Champions é um site que lista todos os personagens do jogo League of Legends e suas respectivas informações, contendo um campo de pesquisa caso busque um campeão específico. Toda vez que um novo personagem surgir no jogo ele será automaticamente incluso na página. 
 ```
 
 ## *Tecnologias utilizadas*
